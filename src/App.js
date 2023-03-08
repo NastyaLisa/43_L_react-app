@@ -60,6 +60,12 @@ return (
   <Add 
   name={newProducts.name} 
   price={newProducts.price}
+   changeName={changeName}
+  changePrice={changePrice}
+  handleNameBlur={handleNameBlur}
+  handlePriceBlur={handlePriceBlur}
+  addProducts={addProducts} 
+  inputValid={inputValid}
   />
 
   <div className="list">

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Product({name, price,id, onRemove }){
+const Product = ({name, price,id, onRemove }) =>{
 
 
 
